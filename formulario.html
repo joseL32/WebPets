@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>.:: Web Pets ::.</title>
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="normalize.css">
+	<script type="text/javascript" src="scripts.js"></script>
+	<link rel="stylesheet" href="formulario.css">
+</head>
+<body >
+	<header>
+		<div class="logo">
+			<img src="img/logo.png" alt="logo" onclick="hola()">
+		</div>
+		<div class="buscador">
+			<input type="text" name="buscar">
+		</div>
+		<div class="contacto">
+			<div class="login">
+				<a href="#">HOME</a> | <a href="#">LOGIN</a>
+			</div>
+			<div class="otros">
+				<div class="telefono">
+					<p class="tex" color="#0b5c220">Call Us:</p>
+					<p class="num">(800) 2345-6789</p>
+				</div>
+				<div class="bolsa">
+					<p>0</p>
+				</div>
+			</div>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">HOME</a>
+				</li>
+				<li><a href="formulario.html">NEW PRODUCTS</a>
+				</li>
+				<li><a href="#">SPECIALS</a></li>
+				<li><a href="#">ALL PRODUCTS</a></li>
+				<li><a href="#">REVIEWS</a></li>
+				<li><a href="#">CONTACTS</a></li>
+				<li><a href="#">FAQG</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<div class="form1">	
+			<form action="#">
+				<div class="datos">
+					<label>Base: </label>
+					<input type="number" id="base">
+				</div>
+				<div class="datos">
+					<label>	Area: </label>
+					<input type="number" id="altura">
+				</div>
+				<div class="boton">
+					<button class="btn" onclick="areaTriangulo()">Calcular Area</button>
+				</div>
+			</form>
+			<div id="resultado1"></div>
+		</div>
+	</section>
+	<footer></footer>
+	
+</body>
+</html>
